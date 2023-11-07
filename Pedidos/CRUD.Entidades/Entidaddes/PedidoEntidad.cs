@@ -9,10 +9,11 @@ namespace Panificadora.Core.Entidades
 {
     public class PedidoEntidad : EntidadesCommon
     {
-        public int idpedido { get; set; }
-        public int cliente { get; set; }
-        public int fechapedido { get; set; }
-        public int cantidad { get; set; }
+        public int Idpedido { get; set; }
+        public int Cliente { get; set; }
+        public int Fechapedido { get; set; }
+        public int Cantidad { get; set; }
+        public required string Estado { get; set; } //required es para que si o si contenga algo?
         
     }
 }

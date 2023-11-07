@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Pedidos.BusinessObject.Interfaces.Controllers
+namespace Pedidos.BusinessObject.DTOs.PedidoDTOs
 {
-    internal class Class1
+    internal class CreatePedidoRequest
     {
     }
 }

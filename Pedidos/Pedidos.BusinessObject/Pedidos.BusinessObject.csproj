@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Interfaces\Getways\" />
     <Folder Include="Interfaces\ValidationSpecification\" />
     <Folder Include="Interfaces\Presenters\" />
     <Folder Include="PersonalException\" />

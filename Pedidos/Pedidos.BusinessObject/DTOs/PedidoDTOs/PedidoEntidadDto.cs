@@ -4,11 +4,11 @@ namespace AplicationBusinessRules.DTOs.PedidoDTOs
 {
     public class PedidoEntidadDto
     {
-        public int idpedido { get; set; }
-        public int cliente { get; set; } //id cliente
-        public Date fechapedido { get; set; }
-        public int cantidad { get; set; }
-
+        public int Idpedido { get; set; }
+        public int Cliente { get; set; } //id cliente
+        public required Date Fechapedido { get; set; }
+        public int Cantidad { get; set; }
+        public int Estado { get; set; }
 
     }
 }
