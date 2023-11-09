@@ -1,0 +1,26 @@
+# Carpeta de salida de compilación
+bin/
+obj/
+
+# Archivos temporales
+[Tt]emp/
+[Tt]est[Rr]esult/
+
+# Archivos de configuración
+*.VisualState.xml
+*.User
+*.UserOptions
+
+# Archivos de respaldo
+[Bb]ackup/
+[Ll]og/
+*.log
+
+# Directorios y archivos específicos de Visual Studio
+.vscode/
+.vs/
+_UpgradeReport_Files/
+Backup*/
+[Ff]orms/GeneratedCode/
+[Tt]estResults/
+[Nn]ode_modules/
