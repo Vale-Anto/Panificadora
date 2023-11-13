@@ -2,7 +2,7 @@
 
 namespace ClientesPedidos.ObjetoNegocio.Wrappers.Cliente
 {
-    internal class WrappersCrearCliente : WrapperCommon
+    internal class CrearClienteResponse : WrapperCommon
     {
         public int IdCliente { get; set; }
         public List<ValidaciónErrorDTO> ErroresValidacion { get; set; }

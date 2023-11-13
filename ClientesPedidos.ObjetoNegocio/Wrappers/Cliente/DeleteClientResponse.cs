@@ -2,6 +2,6 @@
 {
     public class DeleteClientResponse : WrapperCommon
     {
-        public bool WasDelete { get; set; }
+        public bool IdCliente { get; set; }
     }
 }
