@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ClientesPedidos.ObjetoNegocio.DTOs.ClienteDTOs;
 
 namespace ClientesPedidos.ObjetoNegocio.Interfaces.Getways.InputPort
 {
-    internal class IUpdateClienteInputPort
+    public interface IUpdateClienteInputPort
     {
+
+        Task Handle(ActualizarSolicitudCliente actualizarSolicitudCliente);
+
+
     }
 }

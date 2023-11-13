@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ClientesPedidos.ObjetoNegocio.DTOs.ClienteDTOs;
+using ClientesPedidos.ObjetoNegocio.Wrappers.Cliente;
 
 namespace ClientesPedidos.ObjetoNegocio.Interfaces.Controladores
 {
-    internal class IUpdateCliente
+    public interface IUpdateClienteController
     {
+
+        Task<ActualizarClientesResponse> UpdateActor(ActualizarSolicitudCliente request);
+
     }
 }

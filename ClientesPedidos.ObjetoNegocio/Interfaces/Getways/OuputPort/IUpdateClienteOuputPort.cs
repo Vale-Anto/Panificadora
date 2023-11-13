@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ClientesPedidos.ObjetoNegocio.Wrappers.Cliente;
 
 namespace ClientesPedidos.ObjetoNegocio.Interfaces.Getways.OuputPort
 {
-    internal class IUpdateClienteOuputPort
+    public interface IUpdateClienteOuputPort
     {
+        Task Handle(ActualizarClientesResponse cliente);
+
     }
 }

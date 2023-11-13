@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ClientesPedidos.ObjetoNegocio.Wrappers.Cliente;
 
 namespace ClientesPedidos.ObjetoNegocio.Interfaces.Getways.OuputPort
 {
-    internal class IDelectClienteOuputPort
+    public interface IDeleteClienteOuputPort
     {
+
+        Task Handle(DeleteClientResponse cliente);
+
+
     }
 }
