@@ -1,11 +1,10 @@
 ﻿
-namespace Pedidos.BusinessObject.DTOs.PedidoDTOs
+namespace Panificadora.BusinessObject.DTOs.PedidoDTOs
 {
     public class UpdatePedidoRequest
     {
         public int Idpedido { get; set; }
-
-        public required string Estado { get; set; }
+        public string? Estado { get; set; }
     }
 }
 

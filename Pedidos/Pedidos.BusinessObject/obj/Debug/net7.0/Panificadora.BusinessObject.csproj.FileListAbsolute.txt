@@ -1,0 +1,11 @@
+C:\Users\alvar\OneDrive\Documentos\DDS II\Programación\Panificadora\Panificadora\Pedidos\Pedidos.BusinessObject\bin\Debug\net7.0\Panificadora.BusinessObject.deps.json
+C:\Users\alvar\OneDrive\Documentos\DDS II\Programación\Panificadora\Panificadora\Pedidos\Pedidos.BusinessObject\bin\Debug\net7.0\Panificadora.BusinessObject.dll
+C:\Users\alvar\OneDrive\Documentos\DDS II\Programación\Panificadora\Panificadora\Pedidos\Pedidos.BusinessObject\bin\Debug\net7.0\Panificadora.BusinessObject.pdb
+C:\Users\alvar\OneDrive\Documentos\DDS II\Programación\Panificadora\Panificadora\Pedidos\Pedidos.BusinessObject\obj\Debug\net7.0\Panificadora.BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alvar\OneDrive\Documentos\DDS II\Programación\Panificadora\Panificadora\Pedidos\Pedidos.BusinessObject\obj\Debug\net7.0\Panificadora.BusinessObject.AssemblyInfoInputs.cache
+C:\Users\alvar\OneDrive\Documentos\DDS II\Programación\Panificadora\Panificadora\Pedidos\Pedidos.BusinessObject\obj\Debug\net7.0\Panificadora.BusinessObject.AssemblyInfo.cs
+C:\Users\alvar\OneDrive\Documentos\DDS II\Programación\Panificadora\Panificadora\Pedidos\Pedidos.BusinessObject\obj\Debug\net7.0\Panificadora.BusinessObject.csproj.CoreCompileInputs.cache
+C:\Users\alvar\OneDrive\Documentos\DDS II\Programación\Panificadora\Panificadora\Pedidos\Pedidos.BusinessObject\obj\Debug\net7.0\Panificadora.BusinessObject.dll
+C:\Users\alvar\OneDrive\Documentos\DDS II\Programación\Panificadora\Panificadora\Pedidos\Pedidos.BusinessObject\obj\Debug\net7.0\refint\Panificadora.BusinessObject.dll
+C:\Users\alvar\OneDrive\Documentos\DDS II\Programación\Panificadora\Panificadora\Pedidos\Pedidos.BusinessObject\obj\Debug\net7.0\Panificadora.BusinessObject.pdb
+C:\Users\alvar\OneDrive\Documentos\DDS II\Programación\Panificadora\Panificadora\Pedidos\Pedidos.BusinessObject\obj\Debug\net7.0\ref\Panificadora.BusinessObject.dll

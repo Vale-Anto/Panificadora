@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Pedidos.BusinessObject.Interfaces.Getways.PedidoGetways
+namespace Panificadora.UseCases.UseCases.PedidoUseCase
 {
-    internal class ICreatePedidoInput
+    internal class UpdatePedidoIterator
     {
     }
 }

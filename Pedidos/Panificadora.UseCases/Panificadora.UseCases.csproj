@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Specifications\PedidoSpecifications\" />
-    <Folder Include="UseCases\PedidoUseCase\" />
+    <ProjectReference Include="..\CRUD.Entidades\Panificadora.Core.csproj" />
+    <ProjectReference Include="..\Pedidos.BusinessObject\Panificadora.BusinessObject.csproj" />
   </ItemGroup>
 
 </Project>

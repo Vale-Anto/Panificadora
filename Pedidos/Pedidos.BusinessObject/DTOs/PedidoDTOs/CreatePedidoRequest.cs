@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Pedidos.BusinessObject.DTOs.PedidoDTOs
+namespace Panificadora.BusinessObject.DTOs.PedidoDTOs
 {
-    internal class CreatePedidoRequest
+    public class CreatePedidoRequest
     {
+        public int Idpedido { get; set; }
     }
 }

@@ -1,10 +1,10 @@
-﻿using Pedidos.BusinessObject.DTOs.ValidationDto;
+﻿using Panificadora.BusinessObject.DTOs.ValidationDto;
 
 
-namespace Pedidos.BusinessObject.Wrappers.PedidoWrappers
+namespace Panificadora.BusinessObject.Wrappers.PedidoWrappers
 
 {
-    public class WrapperUpdateActor : WrapperCommon
+    public class WrapperUpdatePedido : WrapperCommon
     {
         public int Idpedido { get; set; }
         public string Estado { get; set; }

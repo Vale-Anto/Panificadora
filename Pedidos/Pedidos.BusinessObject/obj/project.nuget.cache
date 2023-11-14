@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Iy36MdWtFUVtZ/zqnOP77SeZf8BNlEijdn8++wJ8YLa1aAjEEbAAGNW2lghXaiq4udl/ISzI0TpXfJN8oVp38Q==",
+  "dgSpecHash": "4l9vK+yNsMit1HX0oa+Ozm7t2lbR3wbHJmuaYRaJiEj9yh/iHV1wuS+m2Ptku6mGTjiIkYqRqdDbm+I4/fLT+A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Pedidos.BusinessObject\\Pedidos.BusinessObject.csproj",
+  "projectFilePath": "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Pedidos.BusinessObject\\Panificadora.BusinessObject.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

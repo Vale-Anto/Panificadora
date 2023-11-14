@@ -1,11 +1,46 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "Panificadora.BusinessObject/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Panificadora.BusinessObject.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Panificadora.BusinessObject.dll": {}
+        }
+      },
+      "Panificadora.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Panificadora.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Panificadora.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Panificadora.BusinessObject/1.0.0": {
+      "type": "project",
+      "path": "../Pedidos.BusinessObject/Panificadora.BusinessObject.csproj",
+      "msbuildProject": "../Pedidos.BusinessObject/Panificadora.BusinessObject.csproj"
+    },
+    "Panificadora.Core/1.0.0": {
+      "type": "project",
+      "path": "../CRUD.Entidades/Panificadora.Core.csproj",
+      "msbuildProject": "../CRUD.Entidades/Panificadora.Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "Panificadora.BusinessObject >= 1.0.0",
+      "Panificadora.Core >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\alvar\\.nuget\\packages\\": {}
@@ -33,7 +68,14 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\CRUD.Entidades\\Panificadora.Core.csproj": {
+              "projectPath": "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\CRUD.Entidades\\Panificadora.Core.csproj"
+            },
+            "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Pedidos.BusinessObject\\Panificadora.BusinessObject.csproj": {
+              "projectPath": "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Pedidos.BusinessObject\\Panificadora.BusinessObject.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

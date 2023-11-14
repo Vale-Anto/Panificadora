@@ -13,8 +13,8 @@ namespace Panificadora.Core.Entidades
         public int Cliente { get; set; }
         public int Fechapedido { get; set; }
         public int Cantidad { get; set; }
-        public required string Estado { get; set; } //required es para que si o si contenga algo?
-        
+        public string Estado { get; set; } //required es para que si o si contenga algo?
+        public int Tipoproducto { get; set; }
     }
 }
 //todos los atributos que va a tener pedido

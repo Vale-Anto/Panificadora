@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Pedidos.BusinessObject\\Pedidos.BusinessObject.csproj",
-      "projectName": "Pedidos.BusinessObject",
-      "projectPath": "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Pedidos.BusinessObject\\Pedidos.BusinessObject.csproj",
+      "projectUniqueName": "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Pedidos.BusinessObject\\Panificadora.BusinessObject.csproj",
+      "projectName": "Panificadora.BusinessObject",
+      "projectPath": "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Pedidos.BusinessObject\\Panificadora.BusinessObject.csproj",
       "packagesPath": "C:\\Users\\alvar\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Pedidos.BusinessObject\\obj\\",
       "projectStyle": "PackageReference",

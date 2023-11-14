@@ -3,9 +3,9 @@
 
 namespace Panificadora.Core.Interfaces.Repositorio
 {
-    public interface IPedidoRepositorio : IUnitOfWork <PedidoEntidad>
+    public interface IPedidoRepository : IUnitOfWork <PedidoEntidad>
     {
-        
+        Task Create(PedidoEntidad newPedido);
         Task<List<PedidoEntidad>> GetAllPedidoRepositorio();
 
     }

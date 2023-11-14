@@ -1,5 +1,5 @@
 ﻿
-namespace Pedidos.BusinessObject.DTOs.ValidationDto
+namespace Panificadora.BusinessObject.DTOs.ValidationDto
 {
     public class ValidationErrorDto
     {

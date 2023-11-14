@@ -1,6 +1,6 @@
 ﻿using static System.Runtime.InteropServices.JavaScript.JSType;
 
-namespace AplicationBusinessRules.DTOs.PedidoDTOs
+namespace Panificadora.BusinessObject.DTOs.PedidoDTOs
 {
     public class PedidoEntidadDto
     {
@@ -9,7 +9,7 @@ namespace AplicationBusinessRules.DTOs.PedidoDTOs
         public required Date Fechapedido { get; set; }
         public int Cantidad { get; set; }
         public int Estado { get; set; }
-
+        public int Tipoproducto { get; set; }
     }
 }
 

@@ -19,11 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Panificadora.Core", "CRUD.E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessObject", "BusinessObject", "{F165F9F9-29EB-4BFD-AA90-801AB2FC8E31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pedidos.BusinessObject", "Pedidos.BusinessObject\Pedidos.BusinessObject.csproj", "{2CA31D84-C6E6-48A3-8E4C-D6D893B70842}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Panificadora.BusinessObject", "Pedidos.BusinessObject\Panificadora.BusinessObject.csproj", "{2CA31D84-C6E6-48A3-8E4C-D6D893B70842}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UseCases", "UseCases", "{F1ABBC54-9EE0-4600-944B-ED8881DD4140}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Panificadora.UseCases", "Panificadora.UseCases\Panificadora.UseCases.csproj", "{A8AB2C6A-E6C8-4DD6-8EE6-79B157579A19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Panificadora.UseCases", "Panificadora.UseCases\Panificadora.UseCases.csproj", "{A8AB2C6A-E6C8-4DD6-8EE6-79B157579A19}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
