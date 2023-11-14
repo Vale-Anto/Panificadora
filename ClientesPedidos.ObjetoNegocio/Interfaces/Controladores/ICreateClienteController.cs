@@ -6,7 +6,7 @@ namespace ClientesPedidos.ObjetoNegocio.Interfaces.Controladores
     public interface ICreateClienteController
     {
 
-        Task<DeleteClientResponse> CreateCliente(CrearSolicitudCliente request);
+        Task<CreateDeleteClienteResponse> CreateCliente(CrearSolicitudCliente request);
 
     }
 }

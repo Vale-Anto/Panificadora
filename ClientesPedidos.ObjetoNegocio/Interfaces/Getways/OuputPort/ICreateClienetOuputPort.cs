@@ -4,7 +4,7 @@ namespace ClientesPedidos.ObjetoNegocio.Interfaces.Getways.OuputPort
 {
     public interface ICreateClienetOuputPort
     {
-        Task Handle(DeleteClientResponse cliente);
+        Task Handle(CreateDeleteClienteResponse cliente);
 
     }
 }
