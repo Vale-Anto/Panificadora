@@ -7,7 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="UsesCases\" />
+    <ProjectReference Include="..\ClientesPedidos.ObjetoNegocio\ClientesPedidos.ObjetoNegocio.csproj" />
+    <ProjectReference Include="..\CRUD.Entidades\CRUD.Entidades.csproj" />
   </ItemGroup>
 
 </Project>
