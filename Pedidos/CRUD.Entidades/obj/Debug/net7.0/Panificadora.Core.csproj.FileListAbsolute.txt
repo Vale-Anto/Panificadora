@@ -1,0 +1,12 @@
+C:\Users\alvar\OneDrive\Documentos\DDS II\Programación\Panificadora\Panificadora\Pedidos\CRUD.Entidades\bin\Debug\net7.0\Panificadora.Core.deps.json
+C:\Users\alvar\OneDrive\Documentos\DDS II\Programación\Panificadora\Panificadora\Pedidos\CRUD.Entidades\bin\Debug\net7.0\Panificadora.Core.dll
+C:\Users\alvar\OneDrive\Documentos\DDS II\Programación\Panificadora\Panificadora\Pedidos\CRUD.Entidades\bin\Debug\net7.0\Panificadora.Core.pdb
+C:\Users\alvar\OneDrive\Documentos\DDS II\Programación\Panificadora\Panificadora\Pedidos\CRUD.Entidades\obj\Debug\net7.0\Panificadora.Core.csproj.AssemblyReference.cache
+C:\Users\alvar\OneDrive\Documentos\DDS II\Programación\Panificadora\Panificadora\Pedidos\CRUD.Entidades\obj\Debug\net7.0\Panificadora.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alvar\OneDrive\Documentos\DDS II\Programación\Panificadora\Panificadora\Pedidos\CRUD.Entidades\obj\Debug\net7.0\Panificadora.Core.AssemblyInfoInputs.cache
+C:\Users\alvar\OneDrive\Documentos\DDS II\Programación\Panificadora\Panificadora\Pedidos\CRUD.Entidades\obj\Debug\net7.0\Panificadora.Core.AssemblyInfo.cs
+C:\Users\alvar\OneDrive\Documentos\DDS II\Programación\Panificadora\Panificadora\Pedidos\CRUD.Entidades\obj\Debug\net7.0\Panificadora.Core.csproj.CoreCompileInputs.cache
+C:\Users\alvar\OneDrive\Documentos\DDS II\Programación\Panificadora\Panificadora\Pedidos\CRUD.Entidades\obj\Debug\net7.0\Panificadora.Core.dll
+C:\Users\alvar\OneDrive\Documentos\DDS II\Programación\Panificadora\Panificadora\Pedidos\CRUD.Entidades\obj\Debug\net7.0\refint\Panificadora.Core.dll
+C:\Users\alvar\OneDrive\Documentos\DDS II\Programación\Panificadora\Panificadora\Pedidos\CRUD.Entidades\obj\Debug\net7.0\Panificadora.Core.pdb
+C:\Users\alvar\OneDrive\Documentos\DDS II\Programación\Panificadora\Panificadora\Pedidos\CRUD.Entidades\obj\Debug\net7.0\ref\Panificadora.Core.dll

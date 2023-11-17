@@ -1,0 +1,508 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Panificadora.DependencyInversion\\Panificadora.DependencyInversion.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\CRUD.Entidades\\Panificadora.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\CRUD.Entidades\\Panificadora.Core.csproj",
+        "projectName": "Panificadora.Core",
+        "projectPath": "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\CRUD.Entidades\\Panificadora.Core.csproj",
+        "packagesPath": "C:\\Users\\alvar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\CRUD.Entidades\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alvar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Panificadora.Controllers\\Panificadora.Controllers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Panificadora.Controllers\\Panificadora.Controllers.csproj",
+        "projectName": "Panificadora.Controllers",
+        "projectPath": "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Panificadora.Controllers\\Panificadora.Controllers.csproj",
+        "packagesPath": "C:\\Users\\alvar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Panificadora.Controllers\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alvar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\CRUD.Entidades\\Panificadora.Core.csproj": {
+                "projectPath": "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\CRUD.Entidades\\Panificadora.Core.csproj"
+              },
+              "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Panificadora.UseCases\\Panificadora.UseCases.csproj": {
+                "projectPath": "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Panificadora.UseCases\\Panificadora.UseCases.csproj"
+              },
+              "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Pedidos.BusinessObject\\Panificadora.BusinessObject.csproj": {
+                "projectPath": "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Pedidos.BusinessObject\\Panificadora.BusinessObject.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Panificadora.DependencyInversion\\Panificadora.DependencyInversion.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Panificadora.DependencyInversion\\Panificadora.DependencyInversion.csproj",
+        "projectName": "Panificadora.DependencyInversion",
+        "projectPath": "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Panificadora.DependencyInversion\\Panificadora.DependencyInversion.csproj",
+        "packagesPath": "C:\\Users\\alvar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Panificadora.DependencyInversion\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alvar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Panificadora.Controllers\\Panificadora.Controllers.csproj": {
+                "projectPath": "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Panificadora.Controllers\\Panificadora.Controllers.csproj"
+              },
+              "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Panificadora.Repository\\Panificadora.Repository.csproj": {
+                "projectPath": "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Panificadora.Repository\\Panificadora.Repository.csproj"
+              },
+              "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Panificadora.UseCases\\Panificadora.UseCases.csproj": {
+                "projectPath": "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Panificadora.UseCases\\Panificadora.UseCases.csproj"
+              },
+              "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\PanificadoraPresenters\\Panificadora.Presenters.csproj": {
+                "projectPath": "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\PanificadoraPresenters\\Panificadora.Presenters.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Panificadora.Repository\\Panificadora.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Panificadora.Repository\\Panificadora.Repository.csproj",
+        "projectName": "Panificadora.Repository",
+        "projectPath": "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Panificadora.Repository\\Panificadora.Repository.csproj",
+        "packagesPath": "C:\\Users\\alvar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Panificadora.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alvar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\CRUD.Entidades\\Panificadora.Core.csproj": {
+                "projectPath": "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\CRUD.Entidades\\Panificadora.Core.csproj"
+              },
+              "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Pedidos.BusinessObject\\Panificadora.BusinessObject.csproj": {
+                "projectPath": "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Pedidos.BusinessObject\\Panificadora.BusinessObject.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Panificadora.UseCases\\Panificadora.UseCases.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Panificadora.UseCases\\Panificadora.UseCases.csproj",
+        "projectName": "Panificadora.UseCases",
+        "projectPath": "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Panificadora.UseCases\\Panificadora.UseCases.csproj",
+        "packagesPath": "C:\\Users\\alvar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Panificadora.UseCases\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alvar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\CRUD.Entidades\\Panificadora.Core.csproj": {
+                "projectPath": "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\CRUD.Entidades\\Panificadora.Core.csproj"
+              },
+              "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Pedidos.BusinessObject\\Panificadora.BusinessObject.csproj": {
+                "projectPath": "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Pedidos.BusinessObject\\Panificadora.BusinessObject.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\PanificadoraPresenters\\Panificadora.Presenters.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\PanificadoraPresenters\\Panificadora.Presenters.csproj",
+        "projectName": "Panificadora.Presenters",
+        "projectPath": "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\PanificadoraPresenters\\Panificadora.Presenters.csproj",
+        "packagesPath": "C:\\Users\\alvar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\PanificadoraPresenters\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alvar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Pedidos.BusinessObject\\Panificadora.BusinessObject.csproj": {
+                "projectPath": "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Pedidos.BusinessObject\\Panificadora.BusinessObject.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Pedidos.BusinessObject\\Panificadora.BusinessObject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Pedidos.BusinessObject\\Panificadora.BusinessObject.csproj",
+        "projectName": "Panificadora.BusinessObject",
+        "projectPath": "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Pedidos.BusinessObject\\Panificadora.BusinessObject.csproj",
+        "packagesPath": "C:\\Users\\alvar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alvar\\OneDrive\\Documentos\\DDS II\\Programación\\Panificadora\\Panificadora\\Pedidos\\Pedidos.BusinessObject\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alvar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

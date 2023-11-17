@@ -1,0 +1,9 @@
+﻿global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.DependencyInjection;
+global using System.Reflection;
+global using Panificadora.Core.Entidades;
+global using Panificadora.Repository.Contexto;
+global using Panificadora.Repository.Repositories;
+global using Panificadora.Core.Interfaces.Repositorio;

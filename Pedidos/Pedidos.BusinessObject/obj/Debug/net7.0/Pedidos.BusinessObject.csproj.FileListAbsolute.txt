@@ -1,0 +1,4 @@
+C:\Users\alvar\OneDrive\Documentos\DDS II\Programación\Panificadora\Panificadora\Pedidos\Pedidos.BusinessObject\obj\Debug\net7.0\Pedidos.BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alvar\OneDrive\Documentos\DDS II\Programación\Panificadora\Panificadora\Pedidos\Pedidos.BusinessObject\obj\Debug\net7.0\Pedidos.BusinessObject.AssemblyInfoInputs.cache
+C:\Users\alvar\OneDrive\Documentos\DDS II\Programación\Panificadora\Panificadora\Pedidos\Pedidos.BusinessObject\obj\Debug\net7.0\Pedidos.BusinessObject.AssemblyInfo.cs
+C:\Users\alvar\OneDrive\Documentos\DDS II\Programación\Panificadora\Panificadora\Pedidos\Pedidos.BusinessObject\obj\Debug\net7.0\Pedidos.BusinessObject.csproj.CoreCompileInputs.cache
