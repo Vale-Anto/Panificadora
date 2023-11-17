@@ -6,16 +6,16 @@ using Panificadora.BusinessObject.Wrappers.PedidoWrappers;
 using Panificadora.Core.Entidades;
 using Panificadora.Core.Interfaces.Repositorio;
 using Pedidos.BusinessObject.Interfaces.Presenters;
-using VideoClub.UseCases.Specifications.ActorSpecifications;
+using Panificadora.UseCases.Specifications.PedidoSpecifications;
 
-namespace VideoClub.UseCases.UseCases.ActorUseCase
+namespace Panificadora.UseCases.UseCases.PedidoUseCase
 {
-    public class DeletePedidoInteractor : IDeletePedidoInput
+    public class DeletePedidoIterator : IDeletePedidoInput
     {
         private readonly IPedidoRepository _repository;
         private readonly IDeletePedidoPresenter _presenter;
 
-        public DeletePedidoInteractor(IPedidoRepository repository, IDeletePedidoPresenter presenter)
+        public DeletePedidoIterator(IPedidoRepository repository, IDeletePedidoPresenter presenter)
         {
             _repository = repository;
             _presenter = presenter;

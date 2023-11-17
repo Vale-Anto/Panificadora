@@ -6,7 +6,7 @@ namespace Panificadora.BusinessObject.Interfaces.Controllers
 {
     public interface ICreatePedidoController
     {
-        Task<WrapperCreatePedido> CreatePedido(PedidoEntidadDto pedido);
+        Task<WrapperCreatePedido> CreatePedido(CreatePedidoRequest request);
 
     }
 }

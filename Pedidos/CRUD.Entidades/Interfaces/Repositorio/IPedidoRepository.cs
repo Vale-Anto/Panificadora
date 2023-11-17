@@ -5,9 +5,11 @@ namespace Panificadora.Core.Interfaces.Repositorio
 {
     public interface IPedidoRepository : IUnitOfWork <PedidoEntidad>
     {
-        Task Create(PedidoEntidad newPedido);
-        Task<List<PedidoEntidad>> GetAllPedidoRepositorio();
-
+           
+        Task Create(PedidoEntidad pedido);
+        Task Delete(int pedidoId);
+        Task Update(PedidoEntidad pedido);
+        
     }
 }
 

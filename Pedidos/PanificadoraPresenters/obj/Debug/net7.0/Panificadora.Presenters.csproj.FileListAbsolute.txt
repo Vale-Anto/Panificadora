@@ -1,0 +1,15 @@
+C:\Users\alvar\OneDrive\Documentos\DDS II\Programación\Panificadora\Panificadora\Pedidos\PanificadoraPresenters\bin\Debug\net7.0\Panificadora.Presenters.deps.json
+C:\Users\alvar\OneDrive\Documentos\DDS II\Programación\Panificadora\Panificadora\Pedidos\PanificadoraPresenters\bin\Debug\net7.0\Panificadora.Presenters.dll
+C:\Users\alvar\OneDrive\Documentos\DDS II\Programación\Panificadora\Panificadora\Pedidos\PanificadoraPresenters\bin\Debug\net7.0\Panificadora.Presenters.pdb
+C:\Users\alvar\OneDrive\Documentos\DDS II\Programación\Panificadora\Panificadora\Pedidos\PanificadoraPresenters\bin\Debug\net7.0\Panificadora.BusinessObject.dll
+C:\Users\alvar\OneDrive\Documentos\DDS II\Programación\Panificadora\Panificadora\Pedidos\PanificadoraPresenters\bin\Debug\net7.0\Panificadora.BusinessObject.pdb
+C:\Users\alvar\OneDrive\Documentos\DDS II\Programación\Panificadora\Panificadora\Pedidos\PanificadoraPresenters\obj\Debug\net7.0\Panificadora.Presenters.csproj.AssemblyReference.cache
+C:\Users\alvar\OneDrive\Documentos\DDS II\Programación\Panificadora\Panificadora\Pedidos\PanificadoraPresenters\obj\Debug\net7.0\Panificadora.Presenters.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alvar\OneDrive\Documentos\DDS II\Programación\Panificadora\Panificadora\Pedidos\PanificadoraPresenters\obj\Debug\net7.0\Panificadora.Presenters.AssemblyInfoInputs.cache
+C:\Users\alvar\OneDrive\Documentos\DDS II\Programación\Panificadora\Panificadora\Pedidos\PanificadoraPresenters\obj\Debug\net7.0\Panificadora.Presenters.AssemblyInfo.cs
+C:\Users\alvar\OneDrive\Documentos\DDS II\Programación\Panificadora\Panificadora\Pedidos\PanificadoraPresenters\obj\Debug\net7.0\Panificadora.Presenters.csproj.CoreCompileInputs.cache
+C:\Users\alvar\OneDrive\Documentos\DDS II\Programación\Panificadora\Panificadora\Pedidos\PanificadoraPresenters\obj\Debug\net7.0\Panificadora.Presenters.csproj.CopyComplete
+C:\Users\alvar\OneDrive\Documentos\DDS II\Programación\Panificadora\Panificadora\Pedidos\PanificadoraPresenters\obj\Debug\net7.0\Panificadora.Presenters.dll
+C:\Users\alvar\OneDrive\Documentos\DDS II\Programación\Panificadora\Panificadora\Pedidos\PanificadoraPresenters\obj\Debug\net7.0\refint\Panificadora.Presenters.dll
+C:\Users\alvar\OneDrive\Documentos\DDS II\Programación\Panificadora\Panificadora\Pedidos\PanificadoraPresenters\obj\Debug\net7.0\Panificadora.Presenters.pdb
+C:\Users\alvar\OneDrive\Documentos\DDS II\Programación\Panificadora\Panificadora\Pedidos\PanificadoraPresenters\obj\Debug\net7.0\ref\Panificadora.Presenters.dll

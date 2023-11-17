@@ -5,7 +5,7 @@ namespace Panificadora.BusinessObject.Interfaces.Controllers
 {
     public interface IUpdatePedidoController
     {
-        Task<WrapperUpdatePedido> UpdatePedido(UpdatePedidoRequest request);
+        Task<WrapperCreatePedido> UpdatePedido(UpdatePedidoRequest request);
     }
 }
 //UpdatePedido recibe un objeto de solicitud (request) para actualizar un actor y 

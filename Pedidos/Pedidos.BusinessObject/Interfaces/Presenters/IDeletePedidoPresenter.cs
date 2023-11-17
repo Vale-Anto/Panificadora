@@ -3,10 +3,11 @@ using Panificadora.BusinessObject.Wrappers.PedidoWrappers;
 
 namespace Pedidos.BusinessObject.Interfaces.Presenters
 {
-    public interface IDeletePedidoPresenter : ICreatePedidoOutput
+    public interface IDeletePedidoPresenter : IDeletePedidoOutput
     {
         WrapperDeletePedido Pedido { get;}
 
-        Task Handle(WrapperDeletePedido pedidoResponse);
     }
 }
+
+//la propiedad Pedido tiene los detalles de la operacion de eliminacion

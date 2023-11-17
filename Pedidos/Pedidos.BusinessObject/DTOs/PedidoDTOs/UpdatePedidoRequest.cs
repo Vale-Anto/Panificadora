@@ -4,7 +4,6 @@ namespace Panificadora.BusinessObject.DTOs.PedidoDTOs
     public class UpdatePedidoRequest
     {
         public int Idpedido { get; set; }
-        public string? Estado { get; set; }
     }
 }
 

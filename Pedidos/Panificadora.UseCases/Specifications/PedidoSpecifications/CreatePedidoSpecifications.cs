@@ -2,7 +2,7 @@
 using Panificadora.BusinessObject.DTOs.ValidationDto;
 using Panificadora.BusinessObject.Interfaces.ValidationSpecification;
 
-namespace VideoClub.UseCases.Specifications.ActorSpecifications
+namespace Panificadora.UseCases.Specifications.PedidoSpecifications
 {
     public class CreatePedidoSpecifications : ISpecification<CreatePedidoRequest>
     {

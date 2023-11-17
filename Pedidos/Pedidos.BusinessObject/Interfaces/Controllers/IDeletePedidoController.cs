@@ -4,6 +4,6 @@ namespace Panificadora.BusinessObject.Interfaces.Controllers
 {
     public interface IDeletePedidoController
     {
-        Task<WrapperCreatePedido> DeletePedido(int Idpedido);
+        Task<WrapperDeletePedido> DeletePedido(int Idpedido);
     }
 }

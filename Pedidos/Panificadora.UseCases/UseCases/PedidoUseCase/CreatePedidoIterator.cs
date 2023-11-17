@@ -6,14 +6,15 @@ using Panificadora.BusinessObject.PersonalException;
 using Panificadora.BusinessObject.Wrappers.PedidoWrappers;
 using Panificadora.Core.Entidades;
 using Panificadora.Core.Interfaces.Repositorio;
-using VideoClub.UseCases.Specifications.ActorSpecifications;
+using Panificadora.UseCases.Specifications.PedidoSpecifications;
+using Pedidos.BusinessObject.Interfaces.Presenters;
 
 namespace Panificadora.UseCases.UseCases.PedidoUseCase
 {
-    
+
     /// Clase que implementa el Input Port para crear un pedidoResponse.
-    
-    public class CreatePedidoIteractor : ICreatePedidoInput
+
+    public class CreatePedidoIterator : ICreatePedidoInput
     {
         readonly IPedidoRepository _repository;
         readonly ICreatePedidoPresenter _presenter;
@@ -22,7 +23,7 @@ namespace Panificadora.UseCases.UseCases.PedidoUseCase
         /// Constructor de la clase CreatePedidoIteractor.
        
       
-        public CreatePedidoIteractor(IPedidoRepository repository, ICreatePedidoPresenter presenter)
+        public CreatePedidoIterator(IPedidoRepository repository, ICreatePedidoPresenter presenter)
         {
             _repository = repository;// el repositorio depedidos
             _presenter = presenter;// el presenter para crear actores inyección de dependencia
@@ -54,7 +55,7 @@ namespace Panificadora.UseCases.UseCases.PedidoUseCase
             {
                 await _repository.Create(newPedido);
                 await _repository.SaveChange();
-                pedidoResponse.Idpedido = newPedido.Id;
+                pedidoResponse.Idpedido = newPedido.Idpedido;
             }
             catch (DBMySqlException ex)
             {
@@ -74,8 +75,4 @@ namespace Panificadora.UseCases.UseCases.PedidoUseCase
         }
     }
 
-    public interface ICreatePedidoPresenter
-    {
-        Task Handle(WrapperCreatePedido pedidoResponse); //edir
-    }
 }
