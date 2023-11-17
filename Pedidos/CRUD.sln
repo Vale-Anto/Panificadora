@@ -41,11 +41,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Panificadora.Repository", "Panificadora.Repository\Panificadora.Repository.csproj", "{8CF09951-F2A7-472A-8638-408957AAC577}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Panificadora.Presenters", "PanificadoraPresenters\Panificadora.Presenters.csproj", "{CFE1BDB7-F919-4559-B38B-78A8C6D412D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Panificadora.Presenters", "PanificadoraPresenters\Panificadora.Presenters.csproj", "{CFE1BDB7-F919-4559-B38B-78A8C6D412D3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{83160070-B09F-4E96-9860-2AD06939A3FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Panificadora.WebApi", "Panificadora.WebApi\Panificadora.WebApi.csproj", "{CE7AD34C-ABDF-48B1-BFD2-F902EB2D62A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Panificadora.WebApi", "Panificadora.WebApi\Panificadora.WebApi.csproj", "{CE7AD34C-ABDF-48B1-BFD2-F902EB2D62A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "basededatos", "basededatos", "{E6232774-7515-49B6-ABDD-533A639B750D}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\db-panificadora.sql = ..\..\..\db-panificadora.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
