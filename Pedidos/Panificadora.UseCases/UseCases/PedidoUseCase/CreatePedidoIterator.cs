@@ -26,7 +26,7 @@ namespace Panificadora.UseCases.UseCases.PedidoUseCase
         public CreatePedidoIterator(IPedidoRepository repository, ICreatePedidoPresenter presenter)
         {
             _repository = repository;// el repositorio depedidos
-            _presenter = presenter;// el presenter para crear actores inyección de dependencia
+            _presenter = presenter;// el presenter para crear pedidos inyección de dependencia
         }
 
         /// Maneja la creación de un nuevo pedidoResponse.

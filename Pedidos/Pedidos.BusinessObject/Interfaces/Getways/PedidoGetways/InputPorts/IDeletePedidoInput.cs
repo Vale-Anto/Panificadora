@@ -2,7 +2,7 @@
 {
     public interface IDeletePedidoInput
     {
-        Task Handle(int Idpedido );//elimina una actor por id
+        Task Handle(int Idpedido );//elimina un pedido por id
     }
 }
 

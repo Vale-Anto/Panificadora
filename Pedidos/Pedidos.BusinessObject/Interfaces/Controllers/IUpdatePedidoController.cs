@@ -8,5 +8,5 @@ namespace Panificadora.BusinessObject.Interfaces.Controllers
         Task<WrapperCreatePedido> UpdatePedido(UpdatePedidoRequest request);
     }
 }
-//UpdatePedido recibe un objeto de solicitud (request) para actualizar un actor y 
-//devuelve un resultado encapsulado en un WrapperCreateDeleteActor
+//UpdatePedido recibe un objeto de solicitud (request) para actualizar un pedido y 
+//devuelve un resultado encapsulado en un WrapperCreateDeletePedido

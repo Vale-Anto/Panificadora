@@ -50,7 +50,7 @@ namespace Panificadora.UseCases.UseCases.PedidoUseCase
 
 //El propósito principal de esta clase es eliminar un
 //pedido utilizando un identificador (idPedido).
-//encapsula la lógica para eliminar un actor, maneja las excepciones relacionadas 
+//encapsula la lógica para eliminar un pedido, maneja las excepciones relacionadas 
 //con la base de datos 
 //y notifica al presentador sobre el resultado de la operación.
 //readonly es como un letrero que pones en una caja cuando la llenas por primera vez.
