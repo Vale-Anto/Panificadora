@@ -4,7 +4,7 @@ using ClientesPedidos.ObjetoNegocio.DTOs.ClienteDTOs;
 using ClientesPedidos.ObjetoNegocio.DTOs.ValidaciónDTO;
 using ClientesPedidos.ObjetoNegocio.Interfaces.EspecificaciónValidación;
 
-namespace PanificadoraUseCases.Especificaciones.EspecificaciónCliente
+namespace CRUD.PanificadoraUseCases.Especificaciones.EspecificaciónCliente
 {
     public class CreateClienteSpecifications : IEspecificación<CrearSolicitudCliente>
     {
