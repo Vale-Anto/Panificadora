@@ -6,7 +6,7 @@ namespace CRUD.Entidades.Entidaddes
     {
 
         public int ClienteId { get; set; }
-        public string Nombre { get; set; }
+        public string NombreCliente { get; set; }
         public string apellido { get; set; }
         public string DNI { get; set; }
         public string direccion { get; set; }

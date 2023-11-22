@@ -52,7 +52,7 @@ namespace PanificadoraUseCases.UsesCases.UseCasesClientes
                 }
 
                 // Actualizar la información del clienteResponse con los datos proporcionados
-                existingCliente.Nombre = actualizarSolicitudCliente.Nombre;
+                existingCliente.NombreCliente = actualizarSolicitudCliente.Nombre;
 
                 // Realizar la actualización en el repositorio
                 await _repository.UpdateCliente(existingCliente);
@@ -60,7 +60,7 @@ namespace PanificadoraUseCases.UsesCases.UseCasesClientes
 
                 // Crear un objeto de respuesta exitosa
                 clienteResponse.ClienteId = existingCliente.Id;
-                clienteResponse.Nombre = existingCliente.Nombre;
+                clienteResponse.Nombre = existingCliente.NombreCliente;
 
                 // Enviar la respuesta al presentador
                 await _presenter.Handle(clienteResponse);
