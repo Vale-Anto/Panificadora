@@ -15,21 +15,33 @@ namespace Panificadora.UseCases.Specifications.PedidoSpecifications
 
         public List<ValidationErrorDto> IsValid()
         {
-            if (_entity.Idpedido <=0)
+            if (_entity.cantidad < 1)
             {
                 _errors.Add(new ValidationErrorDto
-                {
-                    PropertyName = "Idpedido",
-                    ErrorMessage = "El campo Idpedido debe contener un valor mayor a 0."
-
+                    { PropertyName = "canidad",
+                    ErrorMessage = "La cantidad no puede ser 0" 
                 });
-                
-      
             }
-            
-
             return _errors;
         }
+
+        //public List<ValidationErrorDto> IsValid()
+        //{
+        //    if (_entity.Idpedido <=0)
+        //    {
+        //        _errors.Add(new ValidationErrorDto
+        //        {
+        //            PropertyName = "Idpedido",
+        //            ErrorMessage = "El campo Idpedido debe contener un valor mayor a 0."
+
+        //        });
+
+
+        //    }
+
+
+        //    return _errors;
+        //}
     }
 }
 
