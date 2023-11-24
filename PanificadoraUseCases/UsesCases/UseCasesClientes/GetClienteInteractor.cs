@@ -1,7 +1,7 @@
-﻿using ClientesPedidos.ObjetoNegocio.Interfaces.Getways.InputPort;
+﻿using ClientesPedidos.ObjetoNegocio.ExcepciónPersonal;
+using ClientesPedidos.ObjetoNegocio.Interfaces.Getways.InputPort;
 using ClientesPedidos.ObjetoNegocio.Interfaces.Presentadores.ClientesPrecenters;
 using ClientesPedidos.ObjetoNegocio.Wrappers.Cliente;
-using CRUD.Entidades.Entidaddes;
 using CRUD.Entidades.Interfaces.Repositorio;
 using static ClientesPedidos.ObjetoNegocio.Wrappers.Cliente.SelectAllClienteResponse;
 

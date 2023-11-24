@@ -17,7 +17,7 @@ namespace CRUD.PanificadoraUseCases.Especificaciones.EspecificaciónCliente
 
         public List<ValidaciónErrorDTO> IsValid()
         {
-            if (string.IsNullOrEmpty(_entity.Nombre))
+            if (string.IsNullOrEmpty(_entity.NombreCliente))
             {
                 _errors.Add(new ValidaciónErrorDTO
                 {
@@ -26,7 +26,7 @@ namespace CRUD.PanificadoraUseCases.Especificaciones.EspecificaciónCliente
 
                 });
             }
-            else if (_entity.Nombre.Length > 45)
+            else if (_entity.NombreCliente.Length > 45)
             {
                 _errors.Add(new ValidaciónErrorDTO
                 {

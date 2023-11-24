@@ -2,6 +2,6 @@
 {
     public class DeleteClientResponse : WrapperCommon
     {
-        public bool IdCliente { get; set; }
+        public int IdCliente { get; set; }
     }
 }

@@ -2,7 +2,7 @@
 {
     public class CrearSolicitudCliente
     {
-        public string Nombre { get; set; }
+        public string NombreCliente { get; set; }
 
     }
 }

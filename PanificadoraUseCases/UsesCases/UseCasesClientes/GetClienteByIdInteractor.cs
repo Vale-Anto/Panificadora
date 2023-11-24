@@ -25,7 +25,7 @@ namespace PanificadoraUseCases.UsesCases.UseCasesClientes
                 var existingCliente = await _repository.GetById(clienteId);
                 if (existingCliente != null)
                 {
-                    clienteResponse.ClienteId = existingCliente.Id;
+                    clienteResponse.IdCliente = existingCliente.Id;
                     clienteResponse.NombreCliente = existingCliente.NombreCliente;
                 }
                 else

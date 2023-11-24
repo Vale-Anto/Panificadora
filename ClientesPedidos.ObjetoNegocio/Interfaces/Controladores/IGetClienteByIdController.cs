@@ -2,11 +2,10 @@
 
 namespace ClientesPedidos.ObjetoNegocio.Interfaces.Controladores
 {
-    public interface IDeleteClientController
+    public interface IGetClienteByIdController
     {
 
-        Task<DeleteClientResponse> DeleteCliente(int idCliente);
+        Task<SelectClienteResponse> GetClienteById(int idCliente);
 
     }
-
 }

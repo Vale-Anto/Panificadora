@@ -9,7 +9,7 @@ namespace ClientesPedidos.ObjetoNegocio.Interfaces.Getways.OuputPort
         //Manejala respuesta que se le envia al Presenter con los detalles de la operación
         //de seleccion de todos los Clientes en el contexto. 
 
-        ValueTask Handle(SelectClienteResponse cliente);
+        ValueTask Handle(SelectAllClienteResponse cliente);
 
     }
 }

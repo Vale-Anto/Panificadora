@@ -6,7 +6,7 @@ namespace ClientesPedidos.ObjetoNegocio.Interfaces.Controladores
     public interface IUpdateClienteController
     {
 
-        Task<CreateDeleteClienteResponse> UpdateActor(ActualizarSolicitudCliente request);
+        Task<CreateDeleteClienteResponse> UpdateCliente(ActualizarSolicitudCliente request);
 
     }
 }

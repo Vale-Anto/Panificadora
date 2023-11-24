@@ -59,7 +59,7 @@ namespace PanificadoraUseCases.UsesCases.UseCasesClientes
                 await _repository.SaveChange();
 
                 // Crear un objeto de respuesta exitosa
-                clienteResponse.ClienteId = existingCliente.Id;
+                clienteResponse.IdCliente = existingCliente.Id;
                 clienteResponse.Nombre = existingCliente.NombreCliente;
 
                 // Enviar la respuesta al presentador

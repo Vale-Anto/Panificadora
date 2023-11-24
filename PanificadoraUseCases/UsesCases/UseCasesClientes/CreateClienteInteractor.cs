@@ -38,7 +38,7 @@ namespace PanificadoraUseCases.UsesCases.UseCasesClientes
 
             Cliente newCliente = new()
             {
-                NombreCliente = crearSolicitudCliente.Nombre
+                NombreCliente = crearSolicitudCliente.NombreCliente
             };
             try
             {
